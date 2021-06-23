@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+     background: url("background.jpg");
+     background-position: center;
+     background-size:  100%;
+     background-origin: 100%;
+     margin: 0px;
+     padding-top: 0px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 340px;
+}
+
+.header1{
+    
+    margin: auto;
+    padding:  110 550px;
+}
+
+
+.header2  p{
+    margin: auto;
+    font-size: 40px;
+    line-height:  10px;
+    padding-bottom: 30px;
+    display: inline-block;
+    color: white;
+}
+
+
+.header2  input{
+    line-height: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: text;
+   padding-left: 5px;
+}
+
+.gender{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn{
+    width: 80px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+
+

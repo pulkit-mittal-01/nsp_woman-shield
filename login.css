@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("background.jpg");
+    background-position: center;
+    background-size:  100%;
+    background-origin: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+ }
+
+ .login-box{
+    width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(51, 49, 202);
+
+}
+
+
+.login-box h1{
+    float: left;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 13px 30px;
+}
+
+.textbox{
+    width: 200px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 6px 0px;
+    margin: 8px 95px;
+    border: 1px solid white;
+    padding-right: 500x;
+    color: red;
+    background-color: white;
+    border-radius: 15px;
+   
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    
+}
+.btn{
+    width: 200px;
+    background: black;
+    border: 2px solid black ;
+    color: white;
+    padding: 3px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 97px;
+    margin-top: 10px;
+    padding-top: 0px;
+   
+}
+
+.btn:hover{
+  background-color: white;
+    color: blue;
+}
+
+.Forgot{
+	float: right;
+	padding-top: 25px;
+	padding-right: 90px;
+	cursor: pointer;
+}
+
+.account{
+	padding-top: 60px;
+	padding-left: 80px;
+	text-decoration: none;
+	color: red;
+}
+
+.account:hover{
+    color: red;
+}
