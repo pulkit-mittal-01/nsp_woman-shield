@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header{
+	height: 100vh;
+	width: 100%;
+	background: url(mmk.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.name{
+	line-height: 10px;
+    padding-top: 100px;
+	margin-left: 450px;
+}
+
+
+.name input{
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-right: 200px;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.complain{
+	margin-left: 450px;
+}
+
+.complain input{
+	border-radius: 10px;
+	margin-top: 20px;
+	padding-bottom: 70px;
+	padding-right: 70px;
+	padding-left: 140px;
+	padding-top: 70px;
+	font-size: 20px;
+	font-weight: 10px;
+}
+
+
+.btn{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 150px;
+	padding-left: 45px;
+	margin-top: 20px;
+	margin-left: 580px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+.btn:hover{
+	background-color: azure;
+	color: black;
+}
+
+.account{
+    padding-left: 525px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.account:hover{
+    background-color: white;
+    color: red;
+}
